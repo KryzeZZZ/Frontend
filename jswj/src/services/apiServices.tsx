@@ -2,7 +2,6 @@ import axios from 'axios';
 
 // 定义 API 的基础 URL（可以从环境变量中读取）
 const API_URL = import.meta.env.VITE_API_URL || 'http://your-api-url.com';
-
 // 定义登录请求的参数类型
 interface LoginRequest {
   email: string;
